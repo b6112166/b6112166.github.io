@@ -28,7 +28,7 @@ function DisplayMsg(k){// takes in an int
 	document.getElementById('demo').innerHTML= "hi there"
 	}
 	else{ // when mouse up
-	document.getElementById('demo').innerHTML= "Check me out"	
+	document.getElementById('demo').innerHTML= "Nothing suspecious here"	
 	}
 }
 function count(){
