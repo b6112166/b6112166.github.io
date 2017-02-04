@@ -19,12 +19,18 @@ function startTime() {
     h + ":" + m + ":" + s;
     var t = setTimeout(startTime, 500);
 }
-
 function checkTime(i) {
     if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
     return i;
 }
-
+function DisplayMsg(k){// takes in an int
+	if (k==1){// when mouse down
+	document.getElementById('demo').innerHTML= "hi there"
+	}
+	else{ // when mouse up
+	document.getElementById('demo').innerHTML= "Check me out"	
+	}
+}
 function count(){
 
 	a++
